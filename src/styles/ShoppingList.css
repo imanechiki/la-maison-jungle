@@ -1,0 +1,40 @@
+.lmj-shopping-list{
+	display: flex;
+	flex-direction: column;
+	flex: 3;
+	gap: 4rem;
+}
+.lmj-plant-list {
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(4, 9rem);
+    gap: 6rem
+}
+ 
+.add{
+	display: flex;
+	align-items: baseline;
+	flex-direction: column;
+}
+.lmj-plant-item {
+	border: solid 2px black;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	padding: 2rem;
+    width: 10rem;
+    height: 14rem;
+}
+
+.lmj-sales {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	font-weight: 500;
+	color: white;
+	padding: 5px 10px;
+	background-color: #31b572;
+}
